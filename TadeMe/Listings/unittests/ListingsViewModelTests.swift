@@ -38,7 +38,7 @@ class ListingsViewModelTests: XCTestCase {
                 expectation.fulfill()
                 XCTAssertTrue(value)
                 XCTAssertEqual(vm.alertContent.title, "Error")
-                XCTAssertEqual(vm.alertContent.message, "The operation couldn’t be completed. (TadeMeTests.NetworkError error 6.)")
+                XCTAssertEqual(vm.alertContent.message, "No response")
             }
             .store(in: &cancellable)
         waitForExpectations(timeout: 10)
