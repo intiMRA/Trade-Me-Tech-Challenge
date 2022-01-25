@@ -22,7 +22,6 @@
 		35CD99F3279F55CE00E970E4 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 35CD99F2279F55CE00E970E4 /* Localizable.strings */; };
 		35CD99F5279FB21000E970E4 /* VerticalTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35CD99F4279FB21000E970E4 /* VerticalTextView.swift */; };
 		35CD99F7279FB53800E970E4 /* PricesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35CD99F6279FB53800E970E4 /* PricesView.swift */; };
-		35CD9A05279FC3F600E970E4 /* TadeMeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35CD9A04279FC3F600E970E4 /* TadeMeTests.swift */; };
 		35CD9A0B279FC3FB00E970E4 /* ListingsViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35CD99FC279FC2D400E970E4 /* ListingsViewModelTests.swift */; };
 		35CD9A0F279FC47C00E970E4 /* MockRequestable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35CD9A0D279FC46B00E970E4 /* MockRequestable.swift */; };
 		35CD9A10279FC49100E970E4 /* NetworkLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C50CCA279AAB03002B54D8 /* NetworkLayer.swift */; };
@@ -64,7 +63,6 @@
 		35CD99F6279FB53800E970E4 /* PricesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PricesView.swift; sourceTree = "<group>"; };
 		35CD99FC279FC2D400E970E4 /* ListingsViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingsViewModelTests.swift; sourceTree = "<group>"; };
 		35CD9A02279FC3F600E970E4 /* TadeMeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TadeMeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		35CD9A04279FC3F600E970E4 /* TadeMeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TadeMeTests.swift; sourceTree = "<group>"; };
 		35CD9A0D279FC46B00E970E4 /* MockRequestable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockRequestable.swift; sourceTree = "<group>"; };
 		35CD9A15279FCEB900E970E4 /* String+Localized.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Localized.swift"; sourceTree = "<group>"; };
 		35CD9A17279FD50700E970E4 /* NetworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkTests.swift; sourceTree = "<group>"; };
@@ -92,7 +90,6 @@
 			isa = PBXGroup;
 			children = (
 				35C50CAB279A5DE4002B54D8 /* TadeMe */,
-				35CD9A03279FC3F600E970E4 /* TadeMeTests */,
 				35C50CAA279A5DE4002B54D8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -161,14 +158,6 @@
 				35CD99FC279FC2D400E970E4 /* ListingsViewModelTests.swift */,
 			);
 			path = unittests;
-			sourceTree = "<group>";
-		};
-		35CD9A03279FC3F600E970E4 /* TadeMeTests */ = {
-			isa = PBXGroup;
-			children = (
-				35CD9A04279FC3F600E970E4 /* TadeMeTests.swift */,
-			);
-			path = TadeMeTests;
 			sourceTree = "<group>";
 		};
 		35CD9A0C279FC44E00E970E4 /* unittests */ = {
@@ -308,7 +297,6 @@
 				35CD9A18279FD50700E970E4 /* NetworkTests.swift in Sources */,
 				35CD9A12279FC4A800E970E4 /* ListResponse.swift in Sources */,
 				35CD9A11279FC4A200E970E4 /* ListingsViewModel.swift in Sources */,
-				35CD9A05279FC3F600E970E4 /* TadeMeTests.swift in Sources */,
 				35CD9A19279FD90D00E970E4 /* String+Localized.swift in Sources */,
 				35CD9A13279FC4B900E970E4 /* Color+Custom.swift in Sources */,
 				35CD9A0B279FC3FB00E970E4 /* ListingsViewModelTests.swift in Sources */,
