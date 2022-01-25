@@ -15,13 +15,13 @@ struct PricesView: View {
         HStack {
             let titleModel = TextModel(text: item.priceDisplay, font: .footnote, weight: .bold, color: .textDark)
             
-            let messageModel = TextModel(text: item.isReserveMet == true ? "ReserveMet" : "ReserveNotMet", font: .footnote, weight: .regular, color: .textLight)
+            let messageModel = TextModel(text: item.isReserveMet == true ? "ReserveMet".localized : "ReserveNotMet".localized, font: .footnote, weight: .regular, color: .textLight)
             
             VerticalTextView(titleModel: titleModel, messageModel: messageModel)
             
             Spacer()
             
-            if item.isClassified == true && item.buyNowPrice != nil {
+            if item.isClassified == false && item.buyNowPrice != nil {
                 
                 let titleModel = TextModel(text: "\(String(describing: item.buyNowPrice))", font: .footnote, weight: .bold, color: .textDark)
                 
