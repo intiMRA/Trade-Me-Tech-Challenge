@@ -15,6 +15,9 @@ struct Item: Identifiable {
 }
 
 class ListingsViewModel: ObservableObject {
+    private let customerKey = ""
+    private let customerSec = ""
+    
     @Published var list: [ListResponse.ListItem] = []
     @Published var showAlert = false
     private var cancellable = Set<AnyCancellable>()
@@ -66,7 +69,7 @@ class ListingsViewModel: ObservableObject {
     }
     
     private func fetchData() -> AnyPublisher<ListResponse, NetworkError> {
-        let authString = "OAuth oauth_consumer_key=\"A1AC63F0332A131A78FAC304D007E7D1\",oauth_signature_method=\"PLAINTEXT\",oauth_signature=\"EC7F18B17A062962C6930A8AE88B16C7&\""
+        let authString = "OAuth oauth_consumer_key=\"\(customerKey)\",oauth_signature_method=\"PLAINTEXT\",oauth_signature=\"\(customerSec)&\""
         let requestData = [
             "Authorization": authString,
             "Content-Type": "application/x-www-form-urlencoded"
