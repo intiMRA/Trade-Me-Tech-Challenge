@@ -1,0 +1,22 @@
+/* 
+  Localizable.strings
+  TadeMe
+
+  Created by Inti Albuquerque on 25/01/22.
+  
+*/
+"MyTradeMe" = "My Trade Me";
+"LatestListings" = "Latest listings";
+"Watchlist" = "Watchlist";
+"PriceNotAvailable" = "price not available";
+"ReserveMet" = "reserve met";
+"ReserveNotMet" = "reserve not met";
+"BuyNow" = "Buy Now";
+"TappedOn" = "Tapped on";
+"TrolleyTitle" = "Trolley";
+"TrolleyMessage" = "You tapped on the trolley";
+"SearchTitle" = "Search";
+"SearchMessage" = "You tapped on the Search Button";
+"Error" = "Error";
+"ServerError" = "Server error";
+"InvalidUrl" = "Invalid Url";
